@@ -1,0 +1,125 @@
+extends ui_layout
+  
+block content
+
+  //-.computer.only.tablet.only.four.wide.column 
+  //-#content.eight.wide.computer.ten.wide.tablet.sixteen.wide.mobile.column
+  #content.sixteen.wide.column 
+
+    .ui.basic.segment(postID="3")
+      .ui.horizontal.segments
+        .ui.basic.segment
+          .ui.compact.segments
+            .ui.vertical.buttons
+              .ui.icon.button
+                i.arrow.up.icon
+              .ui.large.basic.label.count=4
+              .ui.icon.button
+                i.arrow.down.icon
+        .ui.segment
+          .ui.items
+            .item
+              .ui.small.image
+                img(src="/post_pictures/"+"IMG_20170602_173837.jpg")
+              .content
+                .header= "Test 2"
+                .meta
+                  .author= "Posted by: NoahM1121"
+                  .time= "3 hours ago"
+                .description
+                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                  p Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                  p Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                  p Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    
+    .ui.basic.segment(postID="3")
+      .ui.horizontal.segments
+        .ui.basic.segment
+          .ui.compact.segments
+            .ui.vertical.buttons
+              .ui.icon.button
+                i.arrow.up.icon
+              .ui.large.basic.label.count=4
+              .ui.icon.button
+                i.arrow.down.icon
+        .ui.segment
+          .ui.items
+            .item
+              .ui.small.image
+                img(src="/post_pictures/"+"IMG_20170602_173837.jpg")
+              .content
+                .header= "Test 2"
+                .meta
+                  .author= "Posted by: NoahM1121"
+                  .time= "3 hours ago"
+                .description
+                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                  p Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                  p Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                  p Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  
+    .ui.basic.segment(postID="3")
+      .ui.horizontal.segments
+        .ui.basic.segment
+          .ui.compact.segments
+            .ui.vertical.buttons
+              .ui.icon.button
+                i.arrow.up.icon
+              .ui.large.basic.label.count=4
+              .ui.icon.button
+                i.arrow.down.icon
+        .ui.segment
+          .ui.items
+            .item
+              .ui.small.image
+                img(src="/post_pictures/"+"IMG_20170602_173837.jpg")
+              .content
+                .header= "Test 2"
+                .meta
+                  .author= "Posted by: NoahM1121"
+                  .time= "3 hours ago"
+                .description
+                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                  p Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                  p Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                  p Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+
+
+
+    .ui.fluid.card(postID="2")
+      .content
+        .right.floated.meta= "Yesterday"
+        |
+        a(href='/user/NoahM1121')
+          img.ui.avatar.image(src='/profile_pictures/image-7.png')
+          span='Aimee Lin'
+      .image
+        img.post(src="/post_pictures/"+"IMG_20170602_173837.jpg")
+      .content
+        .description="Today was a rough day, but I have food to cheer me up."
+        //-.right.floated.meta
+          i.icon.checkmark
+          | Seen by 12
+      .three.ui.bottom.attached.icon.buttons
+        .ui.reply.button(tabindex='0')
+          i.reply.icon
+          |  Reply
+        .ui.flag.button(tabindex='0')
+          i.flag.icon
+          |  Flag
+        .ui.labeled.button(tabindex='0')
+          .ui.like.button
+            i.heart.icon
+            |  Like
+          a.ui.basic.red.left.pointing.label.count=4
+      .content
+        //-.description(style="text-align:center;background:#E8E8E8")="How is Aimee Feeling?"
+        //-.ui.top.attached.label(style="text-align:center")="How is Noah Feeling"
+        .ui.fluid.left.labeled.right.icon.input
+          //-.ui.top.attached.label(style="text-align:center")="How is Noah Feeling"
+          .ui.label            
+            img.ui.avatar.image(src='/profile_pictures/image-18.png', name="Jane Doe")
+          input.newcomment(type='text', placeholder='Write a Comment')
+          i.big.send.link.icon

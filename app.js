@@ -279,6 +279,13 @@ app.get('/profile_info', passportConfig.isAuthenticated, function (req, res) {
   });
 });
 
+//-------------------------------------------------Mine----------------------------------------
+app.get("/Rachels_test", function(req, res){
+  res.render('rachelsPage', {
+    title: 'Rachels Test Page'
+  });
+});
+
 
 //User's Page
 app.get('/me', passportConfig.isAuthenticated, userController.getMe);
