@@ -15,7 +15,7 @@ Also special thanks to Sahat Yalkabov and his [Hackathon Starter](https://github
 
 
 
-Rachel's Changes
+Rachel's Changes: 
   I added a new route, localhost:3000/rachels_test. This page is a mockup for a reddit-style layout, instead of the current instagram-style format. There is no functionality, but it would be relatively simple to implement. What needs to be changed is is: 
     1. Likes on comments and posts to upvotes and downvotes, but the numeric value can remain the same in the database
     2. Add a functionality where when you click on a post, it expands into the full view version of the post. In addition, there is no "preview" version of the posts, currently all the text in the post is displayed on the main screen instead of just the first few lines.
