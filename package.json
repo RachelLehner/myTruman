@@ -47,7 +47,7 @@
     "passport-local": "^1.0.0",
     "pug": "^2.0.4",
     "request": "^2.88.0",
-    "semantic-ui": "^2.4.2",
+    "semantic-ui": "^2.5.0",
     "semantic-ui-icon": "^2.3.3",
     "ua-parser-js": "^0.7.20",
     "useragent": "^2.3.0",
